@@ -1,0 +1,21 @@
+# Python virtual environment
+venv/*
+!venv/share/
+!venv/share/jupyter/
+!venv/share/jupyter/kernels/
+!venv/share/jupyter/kernels/python3/
+!venv/share/jupyter/kernels/python3/train.ipynb
+
+# Python cache and local artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Images and notebooks output
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+.ipynb_checkpoints/
