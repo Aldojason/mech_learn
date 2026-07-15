@@ -6,6 +6,15 @@ venv/*
 !venv/share/jupyter/kernels/python3/
 !venv/share/jupyter/kernels/python3/train.ipynb
 
+# Exclude directories that should stay local
+/scripts/
+/lib/
+/include/
+
+# Local notebook artifacts
+venv/share/jupyter/kernels/python3/laptop.ipynb
+venv/share/jupyter/kernels/python3/laptops.csv
+
 # Python cache and local artifacts
 __pycache__/
 *.py[cod]
