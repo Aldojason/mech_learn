@@ -12,7 +12,6 @@ venv/*
 /include/
 
 # Local notebook artifacts
-venv/share/jupyter/kernels/python3/laptop.ipynb
 venv/share/jupyter/kernels/python3/laptops.csv
 
 # Python cache and local artifacts
