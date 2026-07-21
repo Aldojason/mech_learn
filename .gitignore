@@ -1,9 +1,5 @@
 # Python virtual environment
 venv/*
-!venv/share/
-!venv/share/jupyter/
-!venv/share/jupyter/kernels/
-!venv/share/jupyter/kernels/python3/
 !venv/share/jupyter/kernels/python3/train.ipynb
 
 # Exclude directories that should stay local
@@ -12,7 +8,11 @@ venv/*
 /include/
 
 # Local notebook artifacts
-venv/share/jupyter/kernels/python3/laptops.csv
+!venv/share/jupyter/kernels/python3/laptops.csv
+!venv/share/jupyter/kernels/python3/laptops.ipynb
+!venv/share/jupyter/kernels/python3/data.csv
+!venv/share/jupyter/kernels/python3/data.ipynb
+!venv/share/jupyter/kernels/python3/CAR DETAILS FROM CAR DEKHO.csv
 
 # Python cache and local artifacts
 __pycache__/
