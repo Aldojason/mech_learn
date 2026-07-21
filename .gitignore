@@ -7,9 +7,11 @@ venv/*
 /lib/
 /include/
 
+!venv/share/jupyter/kernels/python3/kernel.json
+!venv/share/jupyter/kernels/python3/logo-svg.svg
 # Local notebook artifacts
 !venv/share/jupyter/kernels/python3/laptops.csv
-!venv/share/jupyter/kernels/python3/laptops.ipynb
+!venv/share/jupyter/kernels/python3/laptop.ipynb
 !venv/share/jupyter/kernels/python3/data.csv
 !venv/share/jupyter/kernels/python3/data.ipynb
 !venv/share/jupyter/kernels/python3/CAR DETAILS FROM CAR DEKHO.csv
